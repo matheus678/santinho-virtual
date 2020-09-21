@@ -1,0 +1,79 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Poppins';
+    background-color: darkmagenta;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#{
+    background-image: linear-gradient(to bottom, #8A2BE2);
+}
+
+#santinho {
+    height: 600px;
+    flex: 0 0 400px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 120px;
+    font-size: 40px;
+    font-weight: 1000;
+    color: black;
+    text-shadow: white 2px 2px;
+    background-color: blue;
+    
+}
+
+#cargo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    transform: perspective(100px) rotatez(-25deg);
+    width: 80px;
+    font-size: 32px;
+    color: black;
+    text-shadow: white 2px 2px;
+    
+}
+
+#slogan {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    text-shadow: white 2px 2px;
+    background-color: blue;
+}
+
+#final {
+    justify-content: space-around;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    font-size: 38px;
+    color: black;
+    text-shadow: white 2px 2px;
+    background-color: blueviolet;
+}
